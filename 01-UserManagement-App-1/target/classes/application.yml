@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/jrtp
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: fhxl dwmw ziws yhbg
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: test@gmail.com
+ 
+app:
+  messages:
+    dupe: Duplicate Email
+    regs: User Registered
+    regf: Registration Failed
+    invc: Invalid Credentials
+    pwdme: New Pwd and old Pwd should be same
+    pwdue: Password update Failed
+    oldpwde: Given old Pwd is wrong
+
+  
